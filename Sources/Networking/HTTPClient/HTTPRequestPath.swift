@@ -91,7 +91,7 @@ extension HTTPRequest {
 
 extension HTTPRequest.Path: HTTPRequestPath {
 
-    static let serverHostURL = URL(string: "https://api.revenuecat.com")!
+    static let serverHostURL = URL(string: "https://rc.indiehacker.im")!
 
     var authenticated: Bool {
         switch self {
